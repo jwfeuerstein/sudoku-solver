@@ -102,7 +102,7 @@ void Sudoku::solve(){
 
 
 bool Sudoku::solveHelper(int row, int col) {
-  // TODO: IMPLEMENT THIS
+
     if(row > 8 || col > 8){
       return false;
     }
